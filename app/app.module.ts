@@ -8,6 +8,7 @@ import { AppComponent }  from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { SearchComponent } from './components/search/search.component';
+import { AlbumComponent } from './components/album/album.component';
 import { SpotifyService } from './services/spotify.service';
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SpotifyService } from './services/spotify.service';
      AppComponent,
      NavbarComponent,
      AboutComponent,
-     SearchComponent
+     SearchComponent,
+     AlbumComponent
       ],
   providers: [
      SpotifyService
