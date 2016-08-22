@@ -23,8 +23,8 @@ import { SpotifyService } from './services/spotify.service';
      AboutComponent,
      SearchComponent
       ],
-      providers: [
-        SpotifyService
+  providers: [
+     SpotifyService
       ],
   bootstrap: [ AppComponent ]
 })
